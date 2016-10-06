@@ -7,7 +7,7 @@ unsigned int merge(int start, int mid, int end, int*arr);
 
 int main()
 {
-	FILE *fp = fopen("E:\\IntegerArray.txt","r");
+	FILE *fp = fopen("\IntegerArray.txt","r");
 	int i=0;
 	int test_arr[100000];
 	//int test_arr[9] = {4, 2, 1, 3, 5, 8, 0, 43, 10};
